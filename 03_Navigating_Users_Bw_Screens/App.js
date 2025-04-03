@@ -3,12 +3,9 @@ import ComponentsScreen from './src/screens/ComponentsScreen'
 import ListScreen from './src/screens/ListScreen'
 
 /*
-
-Notes_101
                    |-(props)--> HomeScreen
 React Navigation --|-(props)--> ListScreen
 Stack Navigator    |-(props)--> ComponentsScreen
-
 */
 
 const navigator = createStackNavigator(
