@@ -1,0 +1,2 @@
+Props: System to pass data from parent to child
+State: System to track a piece of data that will change over time, if that data changes, App will rerender

@@ -1,5 +1,0 @@
-
-
-              |-(props:{title:, image:})--> ImageDetail
-Image Screen--|-(props:{title:, image:})--> ImageDetail
-              |-(props:{title:, image:})--> ImageDetail
