@@ -1,2 +1,16 @@
 Props: System to pass data from parent to child
 State: System to track a piece of data that will change over time, if that data changes, App will rerender
+
+UseState is what we refer to as Hook
+
+-- Notes on State --
+    • We are using function-based state in a functional component. React also has class-based components that have access to state
+    • We never directly modify a state variable. React doesn't detect this change! Only use the 'setter' function
+    • We can name the state variable anything we wish, also we can track any kind of data that changes over time - a number,string,array of object
+    • When a component is rerendered, all of its children get rerendered too. 
+    • A state variable can be passed to a child component! At that point, the state variable is now being used as props.
+
+-- 3Questions to Ask --
+What piece of data is changing in our App?
+What type of data is It?
+What is the data's starting default value?
